@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asher Kashif | AI & Flask Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav-container">
+    <h1 class="logo">Asher Kashif</h1>
+    <nav>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-flex">
+    <div class="hero-text">
+      <h2>Hello, I’m <span>Asher Kashif</span></h2>
+      <h3>AI Developer | Flask Specialist</h3>
+      <p>I work with data preprocessing, feature engineering, and model optimization.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn">Explore Projects</a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Resume</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-photo">
+        <img src="img\profile.png" alt="Asher Kashif">
+      </div>
+      <div class="photo-socials">
+        <a href="https://github.com/asherkashif" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/asherkashif" target="_blank">LinkedIn</a>
+        <a href="mailto:your-email@example.com">Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills" class="skills">
+  <div class="container">
+    <h2 style="text-align: center; color: #fff;">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h4>Python & AI</h4><p style="color:var(--accent-green)">95%</p></div>
+      <div class="skill-card"><h4>Flask APIs</h4><p style="color:var(--accent-green)">90%</p></div>
+      <div class="skill-card"><h4>Data Analysis</h4><p style="color:var(--accent-green)">85%</p></div>
+      <div class="skill-card"><h4>TensorFlow</h4><p style="color:var(--accent-green)">80%</p></div>
+    </div>
+  </div>
+</section>
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Computer Science student focusing on the intersection of Machine Learning and Scalable Web Architecture. I specialize in training models and deploying them via Flask APIs.</p>
+    <div class="stats">
+      <div class="stat-item">
+        <h3>10+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="stat-item">
+        <h3>95%</h3>
+        <p>Model Precision</p>
+      </div>
+      <div class="stat-item">
+        <h3>2+</h3>
+        <p>Years in Python Dev</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="img\movie.PNG" alt="Movie Recommender">
+        <h3>Movie Recommender</h3>
+        <p>A movie recommender system that suggests films
+             based on user preferences. It helps users quickly 
+             discover movies they might enjoy by 
+            analyzing genres, ratings, or similarities.</p>
+        <div class="card-buttons">
+          <a href="https://github.com/asherkashif/Movie-Recommender.git" target="_blank" rel="noopener noreferrer" class="card-btn">Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="project2.jpg" alt="Medical AI">
+        <h3>AI Medical Diagnosis</h3>
+        <p>Ensemble learning model predicting diseases with 98% validation accuracy.</p>
+        <div class="card-buttons">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="card-btn">Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" alt="Flask Apps">
+        <h3>Flask Scalable API</h3>
+        <p>RESTful API backend for real-time data processing and model inference.</p>
+        <div class="card-buttons">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="card-btn">Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Reach out to discuss AI and machine learning solutions for your project.</p>
+    <div class="contact-wrapper">
+      <form id="contact-form" action="https://formspree.io/f/xlgwvjop" method="POST" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="_replyto" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="5" placeholder="Project Details / Message" required></textarea>
+        </div>
+        <button type="submit" id="submit-btn" class="btn btn-block">Submit</button>
+        <p id="form-status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Asher Kashif</p>
+    <div class="footer-social">
+      <a href="https://github.com/asherkashif" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linkedin.com/asherkashif" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
