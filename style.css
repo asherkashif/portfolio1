@@ -257,7 +257,7 @@ footer { padding: 3rem 0; text-align: center; border-top: 1px solid var(--border
     position: absolute;
     top: 70px;
     right: 5%;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--bg-secondary);
     padding: 20px;
     border-radius: 8px;
     border: 1px solid var(--border);
